@@ -11,6 +11,7 @@
   border:1px solid #ccc;
   border-radius:2%;
   box-shadow:2px 2px 5px #333;
+  margin-top:20px;
 }
 .day1{
   padding-top:20px;
@@ -34,7 +35,7 @@
 	margin:60px auto 0 auto;
 	padding-left:15px;
 	height:40px;	
-	background:#747474;
+	background:skyblue;
 	color:#fff;
 	font-size:1.2em;
 	line-height:40px;
@@ -61,8 +62,25 @@
 .item-date {
   float:left;
   margin-left:60px;
-  font-size:1.2em;
+  font: size 1.1em;
   color:#222;
   text-align:right;
   line-height:60px;
+}
+.box {
+  width:450px;
+  margin:0 auto;
+  /* background:url(images/heart.png) no-repeat 5px -100px;
+  background-size:500px;   */
+  border:1px solid #ccc;
+  border-radius:2%;
+  box-shadow:2px 2px 5px #333;
+  margin-top: 20px;
+}
+.subTitle {
+  border: #222;
+  font: size 1.4em;
+  color:#333;
+  text-align: center;
+  font-family: 'Jua', sans-serif;
 }
